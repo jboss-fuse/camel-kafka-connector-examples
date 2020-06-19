@@ -91,8 +91,9 @@ value.converter=org.apache.kafka.connect.storage.StringConverter
 
 topics=mytopic
 
-camel.source.path.hosts=172.17.0.2
-camel.source.path.keyspace=9042/test
+camel.sink.path.hosts=172.17.0.2
+camel.source.path.port=9042
+camel.sink.path.keyspace=test
 camel.source.endpoint.cql=select * from users
 ```
 
