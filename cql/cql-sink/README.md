@@ -92,7 +92,7 @@ key.converter=org.apache.kafka.connect.storage.StringConverter
 value.converter=org.apache.kafka.connect.storage.StringConverter
 
 camel.sink.path.hosts=172.17.0.2
-camel.source.path.port=9042
+camel.sink.path.port=9042
 camel.sink.path.keyspace=test
 camel.sink.endpoint.cql=insert into users(id, name) values (now(), ?)
 ```
