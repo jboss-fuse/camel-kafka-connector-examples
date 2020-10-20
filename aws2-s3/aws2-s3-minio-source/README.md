@@ -70,7 +70,7 @@ and add the correct credentials for AWS.
 Now you can run the example
 
 ```
-$KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties config/CamelAWSS3SourceConnector.properties config/CamelAWS2SQSSourceConnector.properties
+$KAFKA_HOME/bin/connect-standalone.sh $KAFKA_HOME/config/connect-standalone.properties config/CamelAWSS3SourceConnector.properties 
 ```
 
 Just connect to your MinIO console and upload a file into your bucket.
