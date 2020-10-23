@@ -6,7 +6,7 @@
 # (the "License"); you may not use this file except in compliance with
 # the License.  You may obtain a copy of the License at
 #
-#     http://www.apache.org/licenses/LICENSE-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -15,16 +15,15 @@
 # limitations under the License.
 #
 
-name=CamelCassandraQLSinkConnector
-topics=mytopic
-tasks.max=1
-connector.class=org.apache.camel.kafkaconnector.cql.CamelCqlSinkConnector
-key.converter=org.apache.kafka.connect.storage.StringConverter
-value.converter=org.apache.kafka.connect.storage.StringConverter
-
-camel.sink.path.hosts=172.17.0.2
-camel.sink.path.port=9042
-camel.sink.path.keyspace=test
-camel.sink.endpoint.cql=insert into users(id, name) values (now(), ?)
-
-
+github:
+  description: "Apache Camel Kafka Connector Examples"
+  homepage: https://camel.apache.org
+  labels:
+    - camel
+    - integration
+    - java
+    - kafka
+  enabled_merge_buttons:
+    merge: false
+    rebase: true
+    squash: true
