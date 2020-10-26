@@ -28,8 +28,8 @@ In this example we'll use `/home/oscerd/connectors/`
 
 ```
 > cd /home/oscerd/connectors/
-> wget https://maven.repository.redhat.com/earlyaccess/all/org/apache/camel/kafkaconnector/camel-aws2-s3-kafka-connector/0.5.0.fuse-jdk11-800011-redhat-00001/camel-aws2-s3-kafka-connector-0.5.0.fuse-jdk11-800011-redhat-00001-package.zip
-> unzip camel-aws2-s3-kafka-connector-0.5.0.fuse-jdk11-800011-redhat-00001-package.zip
+> wget https://maven.repository.redhat.com/earlyaccess/all/org/apache/camel/kafkaconnector/camel-aws2-s3-kafka-connector/0.5.0.fuse-jdk11-800012-redhat-00001/camel-aws2-s3-kafka-connector-0.5.0.fuse-jdk11-800012-redhat-00001-package.zip
+> unzip camel-aws2-s3-kafka-connector-0.5.0.fuse-jdk11-800012-redhat-00001-package.zip
 ```
 
 Now we need to setup a MinIO instance
